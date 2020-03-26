@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wine"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/happy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy"
+        android:textSize="36sp"
+        android:padding="16dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/birthday_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday,"
+        android:textSize="36sp"
+        android:padding="16dp"
+        android:layout_marginLeft="36dp"
+        android:layout_below="@id/happy_text_view"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ivy!"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/birthday_text_view"
+        android:textSize="36sp"
+        android:padding="16dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="From, Ives"
+        android:textSize="36sp"
+        android:padding="16dp"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
